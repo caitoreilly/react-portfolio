@@ -1,28 +1,59 @@
-import React from 'react';
+import React from "react";
 
-function Nav(props){
-    const {currentTab, setCurrentTab} = props;
+function Nav(props) {
+  const { currentTab, setCurrentTab } = props;
 
-    return (
-      <nav>
-        <ul>
-          <li className={currentTab === "about" ? "mx-2 navActive" : "mx-2"}>
-            <span onClick={() => setCurrentTab("about")}>About</span>
-          </li>
-          <li
-            className={currentTab === "portfolio" ? "mx-2 navActive" : "mx-2"}
+  return (
+    <nav>
+      <ul className="nav nav-tabs">
+        <li className="nav-item">
+          <a
+            href="#about"
+            onClick={() => setCurrentTab("about")}
+            // This is a conditional (ternary) operator that checks to see if the current page is "Home"
+            // If it is, we set the current page to 'nav-link-active', otherwise we set it to 'nav-link'
+            className={currentTab === "about" ? "nav-link active" : "nav-link"}
           >
-            <span onClick={() => setCurrentTab("portfolio")}>Portfolio</span>
-          </li>
-          <li className={currentTab === "contact" ? "mx-2 navActive" : "mx-2"}>
-            <span onClick={() => setCurrentTab("contact")}>Contact</span>
-          </li>
-          <li className={currentTab === "resume" ? "mx-2 navActive" : "mx-2"}>
-            <span onClick={() => setCurrentTab("resume")}>Resume</span>
-          </li>
-        </ul>
-      </nav>
-    );
+            About
+          </a>
+        </li>
+        <li className="nav-item">
+          <a
+            href="#portfolio"
+            onClick={() => setCurrentTab("portfolio")}
+            // Check to see if the currentPage is `About`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
+            className={
+              currentTab === "portfolio" ? "nav-link active" : "nav-link"
+            }
+          >
+            Portfolio
+          </a>
+        </li>
+        <li className="nav-item">
+          <a
+            href="#contact"
+            onClick={() => setCurrentTab("contact")}
+            // Check to see if the currentPage is `Blog`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
+            className={
+              currentTab === "contact" ? "nav-link active" : "nav-link"
+            }
+          >
+            Contact
+          </a>
+        </li>
+        <li className="nav-item">
+          <a
+            href="#resume"
+            onClick={() => setCurrentTab("resume")}
+            // Check to see if the currentPage is `Contact`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
+            className={currentTab === "resume" ? "nav-link active" : "nav-link"}
+          >
+            Resume
+          </a>
+        </li>
+      </ul>
+    </nav>
+  );
 }
 
 export default Nav;

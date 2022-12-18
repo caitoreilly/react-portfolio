@@ -3,15 +3,16 @@ import React, { useState } from "react";
 import "./App.css";
 import About from "./components/About";
 import ContactForm from "./components/Contact";
-// import Footer from "./components/Footer";
+// // import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Portfolio from "./components/Portfolio";
-// import Project from "./components/Project";
+// // import Project from "./components/Project";
 import Resume from "./components/Resume";
 
 function App() {
   const [currentTab, setCurrentTab] = useState("about");
 
+  // Check which tab is selected by user & renders that single page
   const displayTab = () => {
     switch (currentTab) {
       case "about":
@@ -23,14 +24,14 @@ function App() {
       case "resume":
         return <Resume />;
       default:
-        return null;
+        return <About />;
     }
   };
 
   return (
     <div>
       <Header currentTab={currentTab} setCurrentTab={setCurrentTab}></Header>
-      <main>{displayTab()}</main>
+      <main style={{maxWidth: "1000px", margin: "0 auto"}}>{displayTab()}</main>
       <div>{/* <Footer></Footer> */}</div>
     </div>
   );

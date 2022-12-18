@@ -5,7 +5,7 @@ function About() {
   return (
     <section>
       <h1>About</h1>
-      <img src={caitPic} style={{ width: "15%" }}></img>
+      <img src={caitPic} style={{ width: "15%" }} alt="profile pic"/>
       <h3>
         Welcome! My name is Caitlin O'Reilly and I am a budding fullstack
         software developer. For the past seven years, I have taught third grade
