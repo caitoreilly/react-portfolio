@@ -1,5 +1,5 @@
 import React from "react";
-import caitPic from "../../assets/images/caitpic.JPG";
+import caitPic from "../../assets/images/profilepicture.jpg";
 
 function About() {
   return (

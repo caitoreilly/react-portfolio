@@ -1,23 +1,80 @@
 import React from "react";
 import Project from "../Project";
 import noteTaker from "../../assets/images/note-taker-pic.png";
+import weatherDashboard from "../../assets/images/weather-dashboard.png";
+import workDayScheduler from "../../assets/images/work-day-scheduler-image.png";
+import concertCatalog from "../../assets/images/concertcatalog.png";
+import pawPals from "../../assets/images/pawpals.png";
+import codeQuiz from "../../assets/images/codequiz.png";
 
 function Portfolio() {
   const myProjects = [
-    { id: 1, title: "Project 1", img: noteTaker},
-    { id: 2, title: "Project 2" },
-    { id: 3, title: "Project 3" },
-    { id: 4, title: "Project 4" },
-    { id: 5, title: "Project 5" },
-    { id: 6, title: "Project 6" },
+    {
+      id: 1,
+      title: "Note Taker",
+      img: noteTaker,
+      text: "This app was created to help a user take and save notes.",
+      url: "https://co-notetaker.herokuapp.com/",
+      url: "https://github.com/caitoreilly/note-taker.git",
+    },
+    {
+      id: 2,
+      title: "Weather Dashboard",
+      img: weatherDashboard,
+      text: "This app allows users to search for daily forecasts and five day forecasts based on location.",
+      url: "https://caitoreilly.github.io/weather-dashboard/",
+      url: "https://github.com/caitoreilly/weather-dashboard.git",
+    },
+    {
+      id: 3,
+      title: "Work Day Scheduler",
+      img: workDayScheduler,
+      text: "This app allows users to schedule and save events at each hour of the day.",
+      url: "https://caitoreilly.github.io/work-day-scheduler/",
+      url: "https://github.com/caitoreilly/work-day-scheduler.git",
+    },
+    {
+      id: 4,
+      title: "Concert Catalog",
+      img: concertCatalog,
+      text: "Concert Catalog allows users to search for concerts near them and displays the concerts on a map.",
+      url: "https://amiller0806.github.io/java-near-me/",
+      url: "https://github.com/amiller0806/java-near-me.git",
+    },
+    {
+      id: 5,
+      title: "Paw Pals",
+      img: pawPals,
+      text: "Paw Pals allows NYC residents to search for dog mates for their own dog based on borough, breed, age, and favorite activity.",
+      url: "https://pawpals22.herokuapp.com/",
+      url: "https://github.com/caitoreilly/paw-pals.git",
+    },
+    {
+      id: 6,
+      title: "Code Quiz",
+      img: codeQuiz,
+      text: "This app is a timed quiz with coding questions. Scores are saved and recorded after the quiz is completed by each user.",
+      url: "https://caitoreilly.github.io/code-quiz/",
+      url: "https://github.com/caitoreilly/code-quiz.git",
+    },
   ];
 
   return (
-    <div className="d-flex">
-      {myProjects.map((project) => (
-        <Project title={project.title} key={project.id} image={project.img} />
-      ))}
-    </div>
+    <section>
+      <h1>My Projects</h1>
+      <div className="d-flex">
+        {myProjects.map((project) => (
+          <Project
+            title={project.title}
+            key={project.id}
+            image={project.img}
+            text={project.text}
+            appLink={project.url}
+            repoLink={project.url}
+          />
+        ))}
+      </div>
+    </section>
   );
 }
 
