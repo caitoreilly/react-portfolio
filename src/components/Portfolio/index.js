@@ -14,7 +14,7 @@ function Portfolio() {
       title: "Note Taker",
       img: noteTaker,
       text: "This app was created to help a user take and save notes.",
-      url: "https://co-notetaker.herokuapp.com/",
+      deployedUrl: "https://co-notetaker.herokuapp.com/",
       url: "https://github.com/caitoreilly/note-taker.git",
     },
     {
@@ -22,7 +22,7 @@ function Portfolio() {
       title: "Weather Dashboard",
       img: weatherDashboard,
       text: "This app allows users to search for daily forecasts and five day forecasts based on location.",
-      url: "https://caitoreilly.github.io/weather-dashboard/",
+      deployedUrl: "https://caitoreilly.github.io/weather-dashboard/",
       url: "https://github.com/caitoreilly/weather-dashboard.git",
     },
     {
@@ -30,7 +30,7 @@ function Portfolio() {
       title: "Work Day Scheduler",
       img: workDayScheduler,
       text: "This app allows users to schedule and save events at each hour of the day.",
-      url: "https://caitoreilly.github.io/work-day-scheduler/",
+      deployedUrl: "https://caitoreilly.github.io/work-day-scheduler/",
       url: "https://github.com/caitoreilly/work-day-scheduler.git",
     },
     {
@@ -38,7 +38,7 @@ function Portfolio() {
       title: "Concert Catalog",
       img: concertCatalog,
       text: "Concert Catalog allows users to search for concerts near them and displays the concerts on a map.",
-      url: "https://amiller0806.github.io/java-near-me/",
+      deployedUrl: "https://amiller0806.github.io/java-near-me/",
       url: "https://github.com/amiller0806/java-near-me.git",
     },
     {
@@ -46,7 +46,7 @@ function Portfolio() {
       title: "Paw Pals",
       img: pawPals,
       text: "Paw Pals allows NYC residents to search for dog mates for their own dog based on borough, breed, age, and favorite activity.",
-      url: "https://pawpals22.herokuapp.com/",
+      deployedUrl: "https://pawpals22.herokuapp.com/",
       url: "https://github.com/caitoreilly/paw-pals.git",
     },
     {
@@ -54,7 +54,7 @@ function Portfolio() {
       title: "Code Quiz",
       img: codeQuiz,
       text: "This app is a timed quiz with coding questions. Scores are saved and recorded after the quiz is completed by each user.",
-      url: "https://caitoreilly.github.io/code-quiz/",
+      deployedUrl: "https://caitoreilly.github.io/code-quiz/",
       url: "https://github.com/caitoreilly/code-quiz.git",
     },
   ];
@@ -69,7 +69,7 @@ function Portfolio() {
             key={project.id}
             image={project.img}
             text={project.text}
-            appLink={project.url}
+            appLink={project.deployedUrl}
             repoLink={project.url}
           />
         ))}
