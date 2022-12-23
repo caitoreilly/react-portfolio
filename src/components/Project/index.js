@@ -8,8 +8,14 @@ function Project({ id, title, image, text, appLink, repoLink }) {
       <Card.Body>
         <Card.Title>{title}</Card.Title>
         <Card.Text>{text}</Card.Text>
-        <Card.Link href={appLink}>Deployed Application</Card.Link>
-        <p><Card.Link href={repoLink}>GitHub Repository</Card.Link></p>
+        <Card.Link href={appLink} target="_blank">
+          Deployed Application
+        </Card.Link>
+        <p>
+          <Card.Link href={repoLink} target="_blank">
+            GitHub Repository
+          </Card.Link>
+        </p>
       </Card.Body>
     </Card>
   );

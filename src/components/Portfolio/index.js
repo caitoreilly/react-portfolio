@@ -61,8 +61,8 @@ function Portfolio() {
 
   return (
     <section>
-      <h1>My Projects</h1>
-      <div className="d-flex">
+      <h1 style={{ textAlign: "center" }}>My Projects</h1>
+      <div className="d-flex flex-wrap justify-content-between">
         {myProjects.map((project) => (
           <Project
             title={project.title}
