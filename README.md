@@ -25,6 +25,8 @@ The following technologies were necessary to install for this web application:
 - React-dom
 - Bootstrap (for React)
 
+In the project directory, you can run "npm start" which runs the app in the development mode. This will open [http://localhost:3000](http://localhost:3000) in your browser. The page will reload when you make changes.
+
 ## Screenshot
 
 ---
@@ -40,12 +42,4 @@ This image displays the Contact page on the React Portfolio webpage.
 If you have any questions about this project, please feel free to contact me directly via email at coreilly29@gmail.com.
 You can also view my additional projects at https://github.com/caitoreilly.
 
-In the project directory, you can run:
 
-`npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
