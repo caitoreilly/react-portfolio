@@ -4,7 +4,7 @@
 
 --- 
 
-This React Portfolio is a single-page application portfolio created using React. The portfolio contains a header, a footer, navigation tabs, an about section, a portfolio section, a contact section, and a resume section. The portfolio section contains screenshots and descriptions of completed projects, as well as links to their corresponding GitHub repositories and deployed applications. The resume section contains a downloadable PDF of my resume. The footer contains links to my GitHib, LinkedIn, and Instagram accounts. For further information, please view my GitHub repository [here]()and deployed application [here]()for this React project! 
+This React Portfolio is a single-page application portfolio created using React. The portfolio contains a header, a footer, navigation tabs, an about section, a portfolio section, a contact section, and a resume section. The portfolio section contains screenshots and descriptions of completed projects, as well as links to their corresponding GitHub repositories and deployed applications. The resume section contains a downloadable PDF of my resume. The footer contains links to my GitHib, LinkedIn, and Instagram accounts. For further information, please view my GitHub repository [here](https://github.com/caitoreilly/react-portfolio.git) and deployed application [here](https://caitoreilly.github.io/react-portfolio/) for this React project! 
 
 ## Table of Contents
 
