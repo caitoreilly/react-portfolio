@@ -6,7 +6,7 @@ import workDayScheduler from "../../assets/images/work-day-scheduler-image.png";
 import concertCatalog from "../../assets/images/concertcatalog.png";
 import pawPals from "../../assets/images/pawpals.png";
 import codeQuiz from "../../assets/images/codequiz.png";
-import deployedSkincare from '../../assets/images/deployed-skincare';
+import deployedSkincare from "../../assets/images/deployed-skincare.png";
 
 function Portfolio() {
   const myProjects = [
