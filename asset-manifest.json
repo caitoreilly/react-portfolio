@@ -1,8 +1,9 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.5765ae10.css",
-    "main.js": "/react-portfolio/static/js/main.c7d4e9ca.js",
+    "main.js": "/react-portfolio/static/js/main.ada64899.js",
     "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
+    "static/media/deployed-skincare.png": "/react-portfolio/static/media/deployed-skincare.f86477536a8a6051ee65.png",
     "static/media/concertcatalog.png": "/react-portfolio/static/media/concertcatalog.5184ff518d77b99c91ab.png",
     "static/media/profilepicture.jpg": "/react-portfolio/static/media/profilepicture.8455e7217a1234a0a0e3.jpg",
     "static/media/resume-pic.png": "/react-portfolio/static/media/resume-pic.e5980bb6a2cb92b2c539.png",
@@ -14,11 +15,11 @@
     "static/media/codequiz.png": "/react-portfolio/static/media/codequiz.0f6c7c5ff3b4fa61a618.png",
     "index.html": "/react-portfolio/index.html",
     "main.5765ae10.css.map": "/react-portfolio/static/css/main.5765ae10.css.map",
-    "main.c7d4e9ca.js.map": "/react-portfolio/static/js/main.c7d4e9ca.js.map",
+    "main.ada64899.js.map": "/react-portfolio/static/js/main.ada64899.js.map",
     "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5765ae10.css",
-    "static/js/main.c7d4e9ca.js"
+    "static/js/main.ada64899.js"
   ]
 }
