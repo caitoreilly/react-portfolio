@@ -6,6 +6,7 @@ import workDayScheduler from "../../assets/images/work-day-scheduler-image.png";
 import concertCatalog from "../../assets/images/concertcatalog.png";
 import pawPals from "../../assets/images/pawpals.png";
 import codeQuiz from "../../assets/images/codequiz.png";
+import deployedSkincare from '../../assets/images/deployed-skincare';
 
 function Portfolio() {
   const myProjects = [
@@ -56,6 +57,14 @@ function Portfolio() {
       text: "This app is a timed quiz with coding questions. Scores are saved and recorded after the quiz is completed by each user.",
       deployedUrl: "https://caitoreilly.github.io/code-quiz/",
       url: "https://github.com/caitoreilly/code-quiz.git",
+    },
+    {
+      id: 7,
+      title: "Deployed Skincare",
+      img: deployedSkincare,
+      text: "This app is a search engine for skincare products. Users can search for and save products based on their individual skincare needs!",
+      deployedUrl: "https://whispering-wildwood-03481.herokuapp.com/",
+      url: "https://github.com/valkim55/project-three",
     },
   ];
 
